@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Manager</title>
+  </head>
+  <body>
+    <h1>Student List</h1>
+
+    <h2>Add Student</h2>
+    <form action="" id="studentForm">
+      <input type="number" id="id" placeholder="ID" required />
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input
+        type="date"
+        id="dob"
+        placeholder="Birthdate (YYYY-MM-DD)"
+        required
+      />
+      <button type="submit" id="submitBtn">Add</button>
+    </form>
+
+    <p id="msg"></p>
+    <button id="listStudents">List Students</button>
+    <ul id="studentList"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
